@@ -35,7 +35,6 @@
                     return response.json();
                 })
                 .then((response) => {
-                    //    let responseResult = `${response.userId}. ${response.id}. ${response.title}.${response.completed}`;
                     let responseResult = " \n User Id :" + response.userId + " \n Id :" + response.id + " \n Title :" + response.title + " \n Completed:" + response.completed;
                     toDoDetails.innerText = responseResult;
                 });
