@@ -13,6 +13,7 @@
     <header>
         <a href="index.html">Home</a>
         <a href="todos.html">ToDos</a>
+        <a href="users.html">Users</a>
     </header>
     <main>
         <h1>ToDos</h1>
@@ -34,8 +35,8 @@
                     return response.json();
                 })
                 .then((response) => {
-                   let responseResult = `${response.userId}. ${response.id}. ${response.title}.
-             ${response.completed}`;
+                    //    let responseResult = `${response.userId}. ${response.id}. ${response.title}.${response.completed}`;
+                    let responseResult = " \n User Id :" + response.userId + " \n Id :" + response.id + " \n Title :" + response.title + " \n Completed:" + response.completed;
                     toDoDetails.innerText = responseResult;
                 });
 
