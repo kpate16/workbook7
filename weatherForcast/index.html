@@ -5,26 +5,30 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
     <title>Weather Forcast</title>
 </head>
 
 <body>
-    <div class="container">
-        <article data-theme="light"> <!--  card -->
-            <h4>Weather Forcast</h4>
-            <form id="weather-worcast-form">
-                <div class="grid"> <!--  row -col -->
-                    <label for="city"> Select City: </label>
-                    <select id="city">
-                        <option value="" disabled selected>Select City</option>
-                    </select>
-                    <!-- <button type="button" class="" id="selectedcity">Get Forcast</button> -->
+    <div class="container m-0">
+        <div class="p-5">
+            <article data-theme="light" class="transparant-card"> <!--  card -->
+                <h4>Weather Forcast</h4>
+                <form id="weather-worcast-form">
+                    <div class="grid"> <!--  row -col -->
+                        <label for="city"> Select City: </label>
+                        <select id="city">
+                            <option value="" disabled selected>Select City</option>
+                        </select>
+                        <!-- <button type="button" class="" id="selectedcity">Get Forcast</button> -->
+                    </div>
+                </form>
+                <div class="grid">
+                    <div id="resultContainer"></div>
                 </div>
-            </form>
-            <div class="grid">
-                <div id="resultContainer"></div>
-            </div>
-        </article>
+            </article>
+        </div>
     </div>
 </body>
 <script src="scripts/main.js"></script>

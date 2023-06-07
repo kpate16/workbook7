@@ -56,13 +56,13 @@ function fetchWetherForcast(request) {
 
       // Create the table element
       var table = document.createElement("table");
-      table.role = "grid";
+      // table.role = "grid";
 
       // Create the table header
       var thead = document.createElement("thead");
       var headerRow = document.createElement("tr");
 
-      var tableHeading = ["Day", "Temprature", "Detailed Forecast"];
+      var tableHeading = ["Day", "Temprature", "Forecast"];
 
       tableHeading.forEach((element) => {
         var th = document.createElement("th");
