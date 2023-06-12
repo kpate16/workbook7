@@ -103,7 +103,7 @@ function displayProducts(data) {
     row.appendChild(cell);
 
     var cell = document.createElement("td");
-    cell.textContent = product.unitPrice;
+    cell.textContent = "$ " + product.unitPrice;
     row.appendChild(cell);
 
     tbody.appendChild(row);
