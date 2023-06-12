@@ -1,0 +1,25 @@
+.form-group {
+  padding: 20px 0px;
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+
+.form-group p {
+  margin: 0px;
+}
+
+.form-control {
+  min-height: 40px;
+  /* background-color: rgb(248, 246, 246); */
+  /* border: 1px; */
+  box-shadow: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: space-around;
+}

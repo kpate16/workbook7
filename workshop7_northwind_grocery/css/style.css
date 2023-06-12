@@ -1,0 +1,60 @@
+/* ===================================== Import other CSS ================================== */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Arimo:300,400,400italic,700,700italic);
+
+@import url(form.css);
+@import url(button.css);
+@import url(logo.css);
+@import url(card.css);
+@import url(navbar.css);
+@import url(bootstrap.min.css);
+
+/* ===================================== Basic CSS ==================================== */
+
+body {
+  background-color: rgb(246, 248, 249);
+  background: url("../images/background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.custom-background {
+  background: url("../images/wallpapers.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+label {
+  color: #545554;
+
+  letter-spacing: 0.1px;
+  font-size: 1.1rem;
+  font-family: "Playfair Display", sans-serif;
+}
+legend {
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: "Playfair Display", sans-serif;
+}
+
+.header-lable {
+  color: #5b7f5b;
+  /* margin-bottom: 1.5rem; */
+  margin-top: 1.5rem;
+  font-weight: bolder;
+  letter-spacing: 0.1px;
+  font-size: 3rem;
+  font-family: "Playfair Display", sans-serif;
+}
+
+.summary-charges-heading {
+  font-family: Calibri;
+  font-size: 24px;
+  font-size: 1.7rem;
+  color: #282727;
+  margin-bottom: 20px;
+}
