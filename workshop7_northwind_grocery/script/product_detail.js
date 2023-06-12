@@ -3,7 +3,11 @@ function init() {
   const queryString = window.location.search;
   const urlParams = new URLSearchParams(queryString);
   const ProductId = urlParams.get("productid");
-  getProductDetails(ProductId);
+  if (ProductId) {
+    getProductDetails(ProductId);
+  } else {
+    window.location.href = "index.html";
+  }
 }
 
 function getProductDetails(ProductId) {

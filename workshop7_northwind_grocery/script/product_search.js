@@ -53,6 +53,10 @@ function loadCategorySelect(data) {
 }
 
 function displayProducts(data) {
+  sortedData = data.sort((a, b) =>
+    a.productName.toLowerCase() > b.productName.toLowerCase() ? 1 : -1
+  );
+
   var formContainer = document.getElementById("resultContainer");
   formContainer.innerHTML = "\n Total Products : " + data.length;
 
@@ -79,7 +83,7 @@ function displayProducts(data) {
   // Create the table body
   var tbody = document.createElement("tbody");
 
-  data.forEach((product) => {
+  sortedData.forEach((product) => {
     var row = document.createElement("tr");
 
     var cell = document.createElement("td");
