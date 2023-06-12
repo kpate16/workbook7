@@ -13,8 +13,7 @@ Bootstrap
 
 - Pull Code via Git and Open with Live Server
 
-https://github.com/kpate16/workbook7
-
+https://github.com/kpate16/workbook7/tree/master/workshop7_northwind_grocery
 ### Screenshots:
 
 Home Page:
