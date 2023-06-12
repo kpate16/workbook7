@@ -38,9 +38,11 @@ Selected Condiments category:
 
 ![image](https://github.com/kpate16/simplesite/assets/130574523/bad8aa76-5689-484b-9baa-90ecf0f8c2ad)
 
-Selected Seafood category:
+Selected Meat/Poultry category:
 
-![image](https://github.com/kpate16/simplesite/assets/130574523/7007dc2f-9aa0-4883-897c-e7ac397830e8)
+![image](https://github.com/kpate16/simplesite/assets/130574523/5093f6fb-9f1c-45ce-9fbb-717e2777967c)
+
+
 
 Search by View all:
 
